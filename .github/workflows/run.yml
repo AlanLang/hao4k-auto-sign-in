@@ -1,9 +1,9 @@
-name: birthday reminder
+name: auto sign
  
 on:
     push:
         branches:
-            - master
+            - main
     schedule:
         - cron: '0 1 * * *'
 env:
